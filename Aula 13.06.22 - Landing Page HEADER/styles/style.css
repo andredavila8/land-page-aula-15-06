@@ -1,0 +1,41 @@
+header{
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Lobster', cursive;
+}
+
+#title{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    line-height: 10px;
+}
+
+li{
+    display: inline-block;
+    margin: 10px;
+}
+
+h1{
+    font-weight: bold;
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+    color: rgb(199, 60, 5);
+}
+
+img {
+    max-width: 110px;
+    max-height: 110px;
+}
+
+a{
+    color: black;
+}
+
+a:hover{
+    color: rgb(199, 60, 5);
+    transition: 0.4s all;
+}
